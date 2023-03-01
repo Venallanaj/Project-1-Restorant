@@ -238,6 +238,82 @@ li a:active {
    margin-bottom: 1rem;
 }
 
+/* ORDER SECTION */
+/* ORDER SECTION */
+/* ORDER SECTION */
+
+.order-section{
+    background-color: #eee;
+}
+
+.order{
+    width: 75%;
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+
+.order-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.order-item{
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+.order-item img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+}
+
+.order-item p {
+    font-size: 1.3rem;
+}
+.order-price{
+    height: 100%;
+}
+.order-price p {
+  
+    font-weight: 500;
+    padding-bottom: 2rem;
+}
+
+.btn-solid {
+    background-color: #bb2205;
+    padding: 0.8rem 1rem;
+}
+
+/* FOOTER */
+/* FOOTER */
+/* FOOTER */
+footer{
+    background-color: #2d6187;
+    padding: 1rem 0;
+}
+
+.footer{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-links ul li a {
+    color: white;
+}
+
+.footer p {
+    margin: 1rem 0;
+}
+
 
 /************ Media Queries************/
 /************ Media Queries************/
@@ -259,6 +335,20 @@ li a:active {
       .testimonial{
         width: 100%;
       }
+
+      .order{
+        width: 100%;
+      }
+      .order-box{
+        padding: 0.5rem;
+      }
+      .order-item img {
+        width: 8rem;
+        height: 8rem;
+    }
+    .order-item p {
+        font-size: 1.2rem;
+    }
 
     
 }
